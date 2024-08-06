@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website dengan Background Gambar</title>
+    <style>
+        body {
+            background-image: url('C:/Users/diaha/Pictures/uts/bg.jpg'); 
+            background-size: cover; 
+            background-position: center; 
+            background-repeat: no-repeat; 
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            color: #f0f0f0; 
+        }
+        nav {
+            background-color: rgba(63, 8, 63, 0.8); 
+            padding: 1em;
+            text-align: center;
+            border-bottom: 2px solid #ff00ff; 
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #ff00ff; 
+            font-weight: bold;
+            font-size: 18px; 
+            transition: color 0.3s, text-shadow 0.3s; 
+        }
+        nav a:hover {
+            color: #00FFFF; 
+            text-shadow: 0 2px 4px rgba(0, 255, 255, 0.6); 
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="content.html" target="content">Home</a> |
+        <a href="about.html" target="content">About Us</a>
+    </nav>
+</body>
+</html>
